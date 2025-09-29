@@ -1,0 +1,29 @@
+Package: pivotWBabhinav
+Type: Package
+Title: Reshape World Bank Data from Wide to Long Format
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Abhinav", "Kansal",
+      email = "abhinavkansal08@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: A utility package to pivot World Bank-style data from wide 
+    (years as columns) to tidy long format. Includes example data on 
+    maternal mortality.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    tidyr,
+    readr
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
