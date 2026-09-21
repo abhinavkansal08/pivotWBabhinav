@@ -9,5 +9,5 @@
 #'   \item{indicator}{Indicator name}
 #'   \item{X2000 ... X2019}{Mortality values for each year}
 #' }
-#' @source World Bank
+#' @source World Bank 
 "maternal_mortality"
